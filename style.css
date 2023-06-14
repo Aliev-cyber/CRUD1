@@ -1,0 +1,145 @@
+body {
+    background-size: cover;
+    background-image: url(https://www.ixbt.com/img/n1/news/2020/5/1/tenor-google.gif);
+  }
+  .todo-list {
+    margin: 50px auto;
+    text-align: center;
+    color: black;
+  }
+  .inputs {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(48, 220, 32, 0.162);
+  }
+  
+  #add-submit {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20%;
+    background-color: yellowgreen;
+    border: 0.5px solid rgb(0, 0, 0);
+    width: 150px;
+  }
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  .add {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .edit-btn,
+  .delete-btn,
+  .reset-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  .reset-btn {
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    background-size: 60px;
+    border-radius: 50%;
+    background-image: url(https://i.gifer.com/origin/11/11a81520928e3c9d83a010f15863b5e3_w200.gif);
+    background-color: #dddddd00;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+  }
+  .edit-btn {
+    background-color:white
+  }
+  
+  .delete-btn {
+    background-color: yellowgreen;
+    color: #fff;
+  }
+  .todo-item {
+    background-color: black;
+    border: 2px solid rgba(0, 0, 0, 0.056);
+    border-radius: 10px;
+    color: yellowgreen;
+    font-size: 20px;
+    font-family: monospace;
+    border: 0.5px solid rgba(0, 0, 0, 0.14);
+  }
+  .square {
+    border-bottom: 2px solid black;
+  }
+  .image {
+    width: 100px;
+  }
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .modal-content {
+    background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #close-modal {
+    background-color: #dddddd00;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #edit-cancel,
+  .edit-submit {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(51, 213, 33);
+  }
+  .edit-submit {
+    background-color: rgb(20, 22, 24);
+  }
